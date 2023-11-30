@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+.featured2_productlist{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+   }
+.featureproduct2_head1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.features2-list
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 1rem;
+    border-top: 1px solid rgba(213, 209, 209, 0.855);
+   padding: 0.5rem;
+}

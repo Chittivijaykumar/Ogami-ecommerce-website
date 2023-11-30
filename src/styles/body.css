@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+.body_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.section3{
+    width: 100vw;
+    height: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: url(https://ogami-react.vercel.app/assets/images/hero-slider/one/bg-1.png);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.s3d1{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction: column;
+   
+}
+.s3d2{
+    width: 30rem;
+    height: 25rem;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+}
+.s3d1d3{
+    color:rgb(71, 70, 70);
+}
+.dolar,.s3d1d1{
+    color: rgb(80, 155, 6);
+}
+.btn1{
+    background-color:rgb(134, 233, 35) ;
+    padding: 0.5rem 1rem ;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.s3d1d2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+/*  */
+.griddiv{
+    width: 28rem;
+    height: 13rem;
+    /* border: 1px solid black; */
+}
+.img4{
+    width: 100%;
+    height: 100%;
+}
+.imggrid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.img4:hover{
+    transform: scale(1.09);
+    /* overflow: hidden; */
+}
+.griddiv:hover{
+    overflow: hidden;
+}

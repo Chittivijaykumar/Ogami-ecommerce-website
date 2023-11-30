@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+.footer_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+}
+.footerdiv1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.footerlogo{
+    width: 5rem;
+    height: 2rem;
+}
+.fotter2_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 0.5rem;
+}
+.footerdiv2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.ioniconfooter_style{
+    background: rgba(229, 226, 226, 0.872);
+    font-size: 2rem;
+    border-radius: 50%;
+    color: rgb(132, 130, 130);
+}
+.footerdiv3{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.footerdiv4{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: rgba(46, 174, 4, 0.731);;
+}
+.footerdetails{
+    /* border: 2px solid rgb(183, 182, 182); */
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 18rem;
+    border-radius: 50px;
+    font-size: 1.6rem;
+}
+.footerinp{
+    width: 49%;
+    height: 100%;
+    border-radius: 50px 0 0 50px  ;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    
+}
+.subbtn{
+    width: 49%;
+    height: 100%;
+    border-radius: 0 50px 50px 0 ;
+    background: rgba(46, 174, 4, 0.731);
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: snow;
+
+}

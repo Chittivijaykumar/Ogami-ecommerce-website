@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+.header_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    background: rgba(251, 245, 245, 0.928);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+.header_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.header1_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.header2_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+.header2_languagedropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header3_loginbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+.ionicon_style{
+    font-size: 1.5rem;
+}
+.ionicon_style:hover{
+    color: rgb(77, 234, 77);
+
+}
